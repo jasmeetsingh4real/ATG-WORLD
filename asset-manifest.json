@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ATG-WORLD/static/css/main.240f19fb.chunk.css",
+    "main.js": "/ATG-WORLD/static/js/main.a69c4baf.chunk.js",
+    "main.js.map": "/ATG-WORLD/static/js/main.a69c4baf.chunk.js.map",
+    "runtime-main.js": "/ATG-WORLD/static/js/runtime-main.cc63c491.js",
+    "runtime-main.js.map": "/ATG-WORLD/static/js/runtime-main.cc63c491.js.map",
+    "static/js/2.3b41006d.chunk.js": "/ATG-WORLD/static/js/2.3b41006d.chunk.js",
+    "static/js/2.3b41006d.chunk.js.map": "/ATG-WORLD/static/js/2.3b41006d.chunk.js.map",
+    "index.html": "/ATG-WORLD/index.html",
+    "static/css/main.240f19fb.chunk.css.map": "/ATG-WORLD/static/css/main.240f19fb.chunk.css.map",
+    "static/js/2.3b41006d.chunk.js.LICENSE.txt": "/ATG-WORLD/static/js/2.3b41006d.chunk.js.LICENSE.txt",
+    "static/media/signup_style.css": "/ATG-WORLD/static/media/signupGraphics.c2bf6f75.PNG",
+    "static/media/home_style.css": "/ATG-WORLD/static/media/headerBgImg.26e71c11.jpg",
+    "static/media/logo.f3ecea40.png": "/ATG-WORLD/static/media/logo.f3ecea40.png",
+    "static/media/card_style.css": "/ATG-WORLD/static/media/share.2282839f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc63c491.js",
+    "static/js/2.3b41006d.chunk.js",
+    "static/css/main.240f19fb.chunk.css",
+    "static/js/main.a69c4baf.chunk.js"
+  ]
+}
