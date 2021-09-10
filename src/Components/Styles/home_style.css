@@ -1,0 +1,118 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* ------------------------------------HEADER SECTION---------------------------------- */
+.headerBg {
+  padding-top: 72px;
+  height: 70vh;
+  background-image: url("../Images/headerBgImg.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.mainHeader h1,
+h4 {
+  margin: 0;
+  color: white;
+}
+.mainHeader h4 {
+  font-weight: lighter;
+}
+.headerTitle {
+  margin: 100px;
+  margin-left: 13vw;
+}
+
+/* ----------------------------------------MAIN SECTION --------------------------------------*/
+
+.mainSection {
+  padding: 0 13vw;
+  /* background-color: khaki; */
+}
+/*----------------------------------------- HERO SECTION --------------------------------------*/
+.heroSection {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 5vw;
+  /* position: sticky; */
+  /* top: 0; */
+}
+/* display:flex */
+.locationDetais {
+  position: sticky;
+  top: 20px;
+  /* border: solid black 1px; */
+  margin-top: 40px;
+}
+/* flex-grow:1; */
+.cards {
+  height: 520px;
+  overflow-y: scroll;
+}
+.cards::-webkit-scrollbar {
+  display: none;
+}
+/* position:sticky
+top:0;
+height:fix;
+width:fix; */
+.LocInput {
+  border-bottom: solid #b8b8b8 0.4px;
+  font-weight: lighter;
+}
+.locationDetais input {
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+}
+.info {
+  font-size: 12px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: none;
+  color: #808080;
+}
+.info p {
+  margin-left: 3px;
+  margin-top: 0;
+}
+.smWritePost {
+  display: none;
+}
+@media (max-width: 800px) {
+  .headerBg {
+    padding: 0;
+    height: 30vh;
+    background-size: cover;
+  }
+  .mainHeader h1 {
+    font-size: 23px;
+  }
+  .mainHeader h4 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.808);
+  }
+  .headerTitle {
+    margin: 50px;
+    margin-left: 5vw;
+  }
+  .mainSection {
+    padding: 0;
+  }
+  .heroSection {
+    display: block;
+  }
+  .locationDetais {
+    display: none;
+  }
+}

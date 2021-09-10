@@ -1,0 +1,134 @@
+/* NAVBAR CSS */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: absolute;
+  margin-top: 0;
+  position: fixed;
+  background-color: white;
+  height: 72px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 72px 1fr 1fr 1fr 72px;
+  /* padding: 5px 0; */
+  border-bottom: solid #e0e0e0 1px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  grid-column-start: 2;
+}
+.logoImage {
+  height: 2rem;
+}
+
+.atg {
+  color: #27a365;
+  display: inline;
+}
+.world {
+  display: inline;
+  color: #5c5d5d;
+}
+.searchBar {
+  color: #5c5c5c;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 2rem;
+  /* height: 42px; */
+  margin: 15px 0;
+  padding: 0 15px;
+}
+.serachLens {
+  display: inline;
+  margin: 0 0.5rem;
+}
+.searchBar input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+  color: #5c5c5c;
+}
+
+.SignupLogin {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.SignupLogin label {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+}
+.SignupLogin label span {
+  font-weight: bolder;
+  color: #2f6ce5;
+}
+.SignupLogin label:hover {
+  text-decoration: underline;
+}
+#SignupLoginBtn {
+  margin: 0 5px;
+}
+#SignupLoginBtn:hover {
+  cursor: pointer;
+}
+.smBackBtn {
+  display: none;
+}
+.smJoinGrp {
+  display: none;
+}
+@media (max-width: 800px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: none;
+  }
+  .logoImage {
+    display: none;
+  }
+  .searchBar {
+    display: none;
+  }
+  .SignupLoginBtn {
+    display: none;
+  }
+  .SignupLogin label {
+    display: none;
+  }
+  .logo {
+    grid-column-start: 0;
+  }
+  .smBackBtn {
+    margin-left: 20px;
+    display: block;
+    background-image: url("../Images/Backbtn2.png");
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+    background-position: center;
+  }
+  .smJoinGrp {
+    display: block;
+    margin-right: 0;
+    padding: 8% 5%;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 5px;
+  }
+}

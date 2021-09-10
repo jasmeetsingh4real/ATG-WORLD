@@ -1,0 +1,87 @@
+.desktop_menu {
+  /* border: solid black; */
+  margin-top: 32px;
+  height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 73px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: white;
+  border-bottom: solid #e0e0e0 1px;
+  align-items: center;
+  /* display: static; */
+}
+.menuBtns {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.inactive {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #8a8a8a;
+  padding: 20px 0;
+}
+.activelink {
+  color: black;
+  border-bottom: solid black 1px;
+}
+.menuBtns button {
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 550;
+}
+.smBackBtnCross {
+  display: none;
+}
+.writeAPostBtn {
+  background-color: #edeef0;
+}
+.writeAPostBtn:hover {
+  background-color: #d1d1d1;
+}
+.joinGrpBtn {
+  background-color: #2f6ce5;
+  color: white;
+}
+.joinGrpBtn:hover {
+  background-color: #4382ff;
+}
+.smMenuBtn {
+  display: none;
+}
+.smFilterBtn {
+  display: none;
+}
+@media (max-width: 800px) {
+  .smBackBtnCross {
+    display: block;
+  }
+  .desktop_menu {
+    margin: 0;
+    padding: 0 20px;
+  }
+  .inactive {
+    display: none;
+  }
+  .smMenuBtn {
+    display: block;
+    font-weight: 600;
+  }
+  .joinGrpBtn {
+    display: none;
+  }
+  .writeAPostBtn {
+    display: none;
+  }
+  .smFilterBtn {
+    display: block;
+    margin: 0;
+  }
+}

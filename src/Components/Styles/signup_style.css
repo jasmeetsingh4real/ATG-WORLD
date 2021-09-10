@@ -1,0 +1,179 @@
+.signupBg {
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vmax;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.signupContainer {
+  position: fixed;
+  top: 10vh;
+  height: 75vh;
+  min-width: 736px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.signin {
+  height: 70vh;
+}
+.message {
+  background-color: #effff4;
+  color: #008a45;
+  padding: 2% 5%;
+  margin: 0;
+  font-size: small;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  position: relative;
+}
+.backBtn {
+  position: fixed;
+  top: 6vh;
+  right: 21vw;
+}
+.signinBox {
+  margin: 36px;
+  margin-top: 0;
+}
+.signinLink {
+  color: #2f6ce5;
+}
+.backBtn:hover {
+  cursor: pointer;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row1 p,
+span {
+  font-size: small;
+  color: #555555;
+}
+.row1 span {
+  font-weight: 600;
+}
+.row1 span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.formInput {
+  border-radius: 3px;
+  width: 20.5vw;
+  padding: 13px 5px;
+  outline: none;
+  background-color: #f7f8fa;
+  border: solid #d9d9db 1px;
+}
+.Name {
+  width: 9.8vw;
+}
+.createAccBtn {
+  width: 21.5vw;
+  padding: 13px 5px;
+  border-radius: 2rem;
+  border: none;
+  margin: 15px 0;
+  background-color: #2f6ce5;
+  color: white;
+}
+.fbSignup {
+  display: flex;
+  justify-content: center;
+  width: 21.5vw;
+  padding: 10px 2px;
+  border: none;
+  background-color: transparent;
+  border: solid #d9d9db 1px;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+.googleSignup {
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  width: 21.5vw;
+  padding: 10px 2px;
+  border: none;
+  background-color: transparent;
+  border: solid #d9d9db 1px;
+  margin: 5px 0;
+}
+.fbIcon {
+  height: 20px;
+  width: 20px;
+  background-image: url(../Images/Facebook-logo.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 10px;
+}
+.gIcon {
+  height: 20px;
+  width: 20px;
+  background-image: url(../Images/Google.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 10px;
+}
+.signupGraphics {
+  background-image: url(../Images/signupGraphics.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+}
+.tcNote {
+  color: #666;
+  margin: 0 5%;
+  font-size: 10px;
+}
+.fp {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10%;
+}
+@media (max-width: 800px) {
+  .signupContainer {
+    text-align: center;
+    width: 100%;
+  }
+  .backBtn {
+    display: none;
+  }
+  .message {
+    display: none;
+  }
+  .gridContainer {
+    display: block;
+  }
+
+  .signupGraphics {
+    display: none;
+  }
+  .loginRedirect {
+    display: none;
+  }
+  .fbSignup,
+  .googleSignup {
+    margin: 0 auto;
+  }
+  .formInput {
+    width: 80%;
+  }
+  .Name {
+    width: 39%;
+  }
+  .createAccBtn,
+  .googleSignup,
+  .fbSignup {
+    width: 80%;
+  }
+}
